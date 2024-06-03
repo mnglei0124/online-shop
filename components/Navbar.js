@@ -7,7 +7,7 @@ import UserProfile from "./UserProfile";
 const Navbar = ({ isLoggedIn }) => {
   isLoggedIn = 1;
   return (
-    <nav className="flex justify-between w-full px-20 py-5 border-b-2 border-blue-300 text-lg">
+    <nav className="flex justify-between w-full px-20 py-3 border-b-2 border-blue-300">
       <Link href="/">
         <Image src="logo.svg" alt="logo" width={45} height={45} />
       </Link>

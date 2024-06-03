@@ -1,5 +1,5 @@
 import AdBanner from "@/components/AdBanner";
-import ProductContainer from "@/components/ProductContainer";
+import SliderContainer from "@/components/SliderContainer";
 import Footer from "@/components/Footer";
 import Navbar from "@/components/Navbar";
 
@@ -8,7 +8,7 @@ const Home = () => {
     <main className="flex flex-col">
       <Navbar />
       <AdBanner />
-      <ProductContainer />
+      <SliderContainer head_txt="New Products" />
       <Footer />
     </main>
   );
